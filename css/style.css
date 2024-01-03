@@ -1,0 +1,98 @@
+.container{
+    background-color: rgb(36, 36, 33);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+header{
+    background-color: rgb(142, 39, 8);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    line-height: 1px;
+    box-shadow: 2px 4px 3px black;
+}
+header h1{
+    font-size: 70px;  
+}
+
+header .nome p  {
+    font-size: 35px;
+}
+
+.imagem img{
+    height: 300px;
+    filter:grayscale();
+    box-shadow: 2px 4px 3px black;
+    margin-top: 20px;
+}
+
+div .foto2{
+    display: none;
+}
+.descricao{
+    font-size: 20px;
+    
+    background-color: rgba(255, 255,255, 0.1);
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 4px 3px black;
+}
+
+.feitos{
+    width:100%;
+    margin-left: 20px;
+    background-color: rgba(255, 255,255, 0.1);
+    margin: 20px;
+    box-shadow: 2px 4px 3px black;
+
+}
+
+.legados{
+    display: flex;
+    justify-content: space-evenly; 
+    
+}
+
+.legados img {
+    height: 300px;
+    margin-bottom: 30px;
+    box-shadow: 2px 4px 3px black;
+    margin-top: 10px;
+}
+
+footer{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    border-top: 1px solid ;
+}
+
+@media screen and (max-width:600px) {
+
+    header h1{
+        font-size: 50px;  
+    }
+
+    div .foto {
+        display: none;
+    }
+
+    div .foto2 {
+        display: flex;
+        
+    }
+
+    .imagem img{
+        filter:grayscale(0%);
+
+    }
+
+}
